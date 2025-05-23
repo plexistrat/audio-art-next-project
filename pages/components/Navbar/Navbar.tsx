@@ -2,9 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}>

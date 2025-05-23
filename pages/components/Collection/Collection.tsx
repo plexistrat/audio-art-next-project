@@ -28,9 +28,7 @@ const guitarAmps = [
   },
 ];
 
-type Props = {};
-
-const Collection = (props: Props) => {
+const Collection = () => {
   return (
     <div className={styles.collection} id="collection">
       <div className={styles.header}>
