@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  color: #fff;
+  background-image: linear-gradient(grey, rgb(40, 35, 35));
+
+  /* background-image: url(../../../public/tubes.jpg);
+  background-size: cover;
+  background-position: center; */
+}
+
+.logo {
+  width: 350px;
+  height: 170px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.logo :hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  transition: all 0.5s ease-in-out;
+}
+
+.links {
+  width: 100px;
+  height: 100px;
+  margin-left: 600px;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links ul li {
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  margin-right: 20px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.links ul li:hover {
+  color: rgb(181, 181, 62);
+}
+.links a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.links a:hover {
+  color: rgb(181, 181, 62);
+}
